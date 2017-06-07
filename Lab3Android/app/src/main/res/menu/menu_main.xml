@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pl.edu.maciejewskipwr.grzegorz.lab3android.MainActivity">
+    <item
+        android:id="@+id/share"
+        android:title="@string/share"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/action_dots_number"
+                android:orderInCategory="100"
+                android:title="@string/change_dots_number" />
+            <item
+                android:id="@+id/action_cubes_number"
+                android:orderInCategory="100"
+                android:title="@string/change_cubes_number" />
+
+        </menu>
+    </item>
+</menu>
+
+
